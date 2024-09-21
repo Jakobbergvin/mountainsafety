@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mountain Safety - Leiga á öryggisbúnaði fyrir útivist. InReach neyðarsendar og snjóflóðaýlar í boði.">
+    <title>Mountain Safety</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Tengjum JavaScript skrána -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mountain Safety</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" onclick="showSection('home')">Heim</a></li>
+                    <li><a href="#rentals" onclick="showSection('rentals')">Leigubúnaður</a></li>
+                    <li><a href="#about" onclick="showSection('about')">Um Okkur</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Öryggi á fjöllum</h2>
+            <p>Leiga á neyðarsendum og snjóflóðaýlum til útivistar. Öryggi er lykilatriði þegar ævintýrin kalla.</p>
+            <a href="#rentals" class="cta-btn" onclick="showSection('rentals')">Skoða búnað</a>
+        </div>
+    </section>
+
+    <section id="rentals" class="section" style="display: none;">
+        <div class="container">
+            <h2>Búnaður í boði</h2>
+            <ul>
+                <li><strong>Garmin InReach:</strong> Neyðarsendir með GPS staðsetningu og samskiptum.</li>
+                <li><strong>Snjóflóðaýlar:</strong> Nauðsynlegur búnaður fyrir öruggar ferðir á snjóþungum svæðum.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about" class="section" style="display: none;">
+        <div class="container">
+            <h2>Um Okkur</h2>
+            <p>Fyrirtækið er í eigu Hugrúnar og Jakobs, en þau ákváðu að bjóða upp á leigu á öryggistengdum útivistarbúnaði til að gera þann búnað aðgengilegan fleirum án stórra fjárfestinga. Þau eru bæði í björgunarsveit og þekkja því vel þann búnað sem nauðsynlegur er til að tryggja öryggi fólks á fjöllum.</p>
+            <img src="hugrunogjakob.jpg" alt="Hugrún og Jakob" class="about-image"> <!-- Hugrún og Jakob -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mountain Safety - Öryggi á fjöllum</p>
+        </div>
+    </footer>
+</body>
+</html>
